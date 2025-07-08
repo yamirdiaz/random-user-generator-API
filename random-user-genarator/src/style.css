@@ -8,7 +8,8 @@ body {
   margin: 0;
   width: 100vw;
   font-family: "Inter", sans-serif;
-  background-color: rgb(14, 13, 13);
+  background-color: rgb(29, 27, 27);
+  color: rgb(29, 27, 27);
 }
 
 header , main {
@@ -31,4 +32,72 @@ header {
   border: 5px solid rgb(232, 225, 225);
   border-radius: 20%;
   box-sizing: content-box;
+}
+
+main {
+  background: rgb(207, 202, 202);
+  padding-top: 60px;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1rem;
+  margin-top: 1.2em;
+}
+
+.name {
+  font-size: 2.5rem;
+  margin-top: 0.25em;
+}
+
+.info {
+  width: 100%;
+  background-color: rgb(194, 165, 128);
+  margin: 0;
+  padding: 20px 10px;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.info > ul > li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+i{
+  font-size: 1.25rem;
+}
+
+.gray {
+  color: rgb(78, 79, 79);
+}
+
+.blue {
+  color: rgb(7, 159, 159);
+}
+
+.red {
+  color: rgb(195, 4, 4);
+}
+
+.pink {
+  color: rgb(223, 91, 113);
+}
+
+.info-list {
+  margin-left: .5em;
 }
