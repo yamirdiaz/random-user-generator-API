@@ -37,7 +37,9 @@ header {
 main {
   background: rgb(207, 202, 202);
   padding-top: 60px;
+  padding-bottom: 1px;
   text-align: center;
+  border-radius: 0 0 6px 6px;
 }
 
 .intro-text {
@@ -100,4 +102,24 @@ i{
 
 .info-list {
   margin-left: .5em;
+}
+
+.btn {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  background: rgb(0, 96, 0);
+  border:  none;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5em auto;
+  border-radius: 6px;
+  color: rgb(207, 202, 202);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(118, 0, 0);
+  cursor: pointer;
 }
