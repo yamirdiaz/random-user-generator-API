@@ -123,3 +123,78 @@ i{
   background-color: rgb(118, 0, 0);
   cursor: pointer;
 }
+
+@media(min-width: 900px) {
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  header {
+    position: relative;
+    width: 400px;
+    height: 100vh;
+  }
+
+  main {
+    display: grid;
+    padding-top: 0;
+    grid-template-areas: 
+    "name name name name info info info info"
+    "name name name name info info info info"
+    "name name name name info info info info"
+    "name name name name info info info info"
+    "btns btns btns btns btns btns btns btns"
+    ;
+    
+    
+  }
+
+  .profile-img {
+    position: absolute;
+    width: 35vh;
+    max-width: 300px;
+    left: calc(400px + 20%)
+  }
+
+  .main-info {
+    grid-area: name;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .info {    
+    grid-area: info;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .btn {
+    grid-area: btns;
+  }
+
+  ul {
+    flex-direction: column;
+    
+  }
+
+  .info > ul > li,
+  .info > ul > li > i {
+    font-size: 1.25rem;
+  }
+
+  
+
+}
+
+@media(min-width: 1020px) {
+
+  .profile-img {    
+    left: calc(400px + 40%);
+    
+  }
+}
